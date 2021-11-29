@@ -55,3 +55,12 @@ let juntar= arrayStr.toString()
 let juntar2= arrayStr.join(' ')
 // console.log(juntar)
 // console.log(juntar2)
+
+
+// 8. Escreva um programa JavaScript para encontrar o item mais frequente de um array.
+let arrItem= [54,12,58,6,36,6,54,84,1,7,36,54,12,74,14,9,1,48,58,84,12,54]
+let maisFrequente= arrItem.filter((el, ind)=>{
+    
+    return el === (ind)
+})
+console.log(maisFrequente) 
