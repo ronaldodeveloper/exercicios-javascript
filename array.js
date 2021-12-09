@@ -6,7 +6,7 @@ var n1= 68;
 var v1= n1 + n1 * (30/100);
 // console.log(n1 +" mais trinta por cento"+" e "+ v1);
 
-// 0- 
+// 0.1-  trinta por cento em cima do total de vendas mais o salario
 var sal= 1200;
 var vendas= 23000;
 var com= vendas * (15/100);
@@ -25,12 +25,10 @@ if (toString.call(arr) === "[object Array]"){
 // 2. Escreva uma função JavaScript para clonar um array. 
 function clonar(arg){
     return arg.slice(0)
-   // console.log("array clone " + x)
 }
 let arrClone= [15,87,'clonar', true,20, '45']
 let spread= [...arrClone]
 let from= Array.from(arrClone)
-
 // console.log("array original " + arrClone)
 // console.log("clonando array com function: "+ clonar(arrClone))
 // console.log("clonando array com spread: "+ spread)
@@ -38,7 +36,6 @@ let from= Array.from(arrClone)
 
 //3. Escreva uma função JavaScript para obter o primeiro elemento de uma 
 // matriz.  Passar um parâmetro 'n' retornará os primeiros 'n' elementos da matriz.
-
 function getElement(n){
     let arr= [45,58,79,21,36,25,71, 36]
     let fil = arr.filter((el)=>{  
@@ -123,7 +120,7 @@ for (let i=0; i<vetorUm.length && i<vetorDois.length; i++){
      //console.log(res)
 }
 
-//  Escreva um programa JavaScript para calcular a união de duas matrizes.
+//22.  Escreva um programa JavaScript para calcular a união de duas matrizes.
 let uniaoUm = [5,78,99,8,5,7,78,98,4];
 let uniaoDois = [9,8,78,2,11,95,78,99,8,5];
 let unirVetor= [...uniaoUm, ...uniaoDois].sort((a,b)=>{
