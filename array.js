@@ -84,7 +84,7 @@ function somar(a, b){
 
     return { soma, prod }
 }
-console.log(somar(15,35))
+// console.log(somar(15,35))
 // ou
 let somaEproduto= [46,1,88,59,11,3]
 let calcular= somaEproduto.reduce((acc,cur)=>{
@@ -94,4 +94,9 @@ let calcular= somaEproduto.reduce((acc,cur)=>{
 })
 // console.log(calcular) 
 
-
+// 22. Escreva um programa JavaScript para calcular a união de duas matrizes
+let vetorA= [32,6,8,98,5,7,25];
+let vetorB= [3,66,15,78,3,9,1];
+let uniao = [...vetorA, ...vetorB]
+let uniaoOrdenada= uniao.sort((a,b)=> a>b) 
+console.log(uniaoOrdenada)
