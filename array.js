@@ -140,11 +140,11 @@ function diff(arr1, arr2){
         return !arr1.includes(el);
     })
 
-   console.log(`Diferença ${[...a,...b]}`)
+  // console.log(`Diferença ${[...a,...b]}`)
 }
 diff(diferencaUm, diferencaDois)
 // interseção
 let intersecao= diferencaUm.filter((el)=>{
     return diferencaDois.includes(el)
 })
-console.log(`Interseçao ${intersecao}`)
+//console.log(`Interseçao ${intersecao}`)
