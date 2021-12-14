@@ -93,7 +93,6 @@ let calcular= somaEproduto.reduce((acc,cur)=>{
 
 
 // 14. Escreva um programa JavaScript para remover itens duplicados de uma matriz 
-
 let duplicados = [5,78,99,8,5,7,78,9,8,78,2,11,99];
 let removerDuplicados= [...new Set(duplicados)]
 //console.log(duplicados)
