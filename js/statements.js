@@ -82,7 +82,7 @@ const alunosD= alunos.filter((el)=>{
 
 for (let i= 0; i <= 100 ; i++){
    if(i % 3 == 0 && i % 5 == 0) {
-     // console.log(i + " FizzBuzz")
+   //  console.log(i + " FizzBuzz")
    }
    if(i % 3 == 0){ 
      // console.log(i +" Fizz")
@@ -91,3 +91,4 @@ for (let i= 0; i <= 100 ; i++){
     //  console.log(i + " Buzz")
    }
 }
+
